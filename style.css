@@ -264,6 +264,9 @@ footer {
 }
 
 /* Nossos Clientes FIM */
+
+/* Novo */
+
 @media (max-width: 768px) {
   .topo {
     flex-direction: column;
