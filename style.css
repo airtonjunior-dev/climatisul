@@ -1,11 +1,70 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
 
-body { margin: 0; font-family: Arial, sans-serif; }
-header { background: #1494cf; color: white; display: flex; justify-content: space-between; align-items: center; padding: 10px 20px; }
-.social-icons a { color: white; margin-left: 10px; text-decoration: none; font-size: 18px; }
-nav { display: flex; gap: 15px; }
-nav a { color: white; text-decoration: none; font-weight: bold; }
-.logo { margin: 2px; }
+header {
+  background: #1494cf;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  flex-wrap: wrap; /* Permite quebrar em telas menores */
+}
 
+.logo {
+  margin: 2px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Menu de navegação */
+nav {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Ícones sociais */
+.social-icons {
+  display: flex;
+  gap: 10px;
+  margin-left: 10px;
+}
+
+.social-icons a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* MEDIA QUERY para telas menores */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav {
+    width: 100%;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .social-icons {
+    width: 100%;
+    justify-content: center;
+    margin-top: 10px;
+  }
+}
+/*--------------------------------*/
 .banner, .proposta, .video, .atuacao, .clientes, footer {
   padding: 40px 20px;
   text-align: center;
