@@ -4,7 +4,7 @@ body {
 }
 
 header {
-  background: #1494cf;
+  background: #0b0070;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -345,4 +345,3 @@ footer {
   }
 }
 @media (max-width: 768px) {
-
