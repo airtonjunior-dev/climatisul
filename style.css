@@ -128,7 +128,7 @@ footer {
 }
 .banner img {
   width: 100%;
-  opacity: 0.80;
+  opacity: 10;
   height: auto;
   max-height: 400px;
   object-fit: cover;
@@ -345,3 +345,32 @@ footer {
   }
 }
 @media (max-width: 768px) {
+  .carousel-container {
+    width: 100%;
+  }
+
+  .carousel-item img {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+/* WHATSAPP NOVO */
+
+.btn-whatsapp {
+  background-color: white;
+  color: #001bb3; /* azul Climatisul */
+  border: 2px solid #1494cf;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.btn-whatsapp:hover {
+  background-color: #1494cf;
+  color: white;
+}
